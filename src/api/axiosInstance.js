@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const axiosInstance = axios.create({
     // Asegúrate de que este puerto sea donde corre tu Backend
-    baseURL: 'http://localhost:3000/api', 
+    baseURL: 'https://pbsh-backend.onrender.com/api', 
     headers: {
         'Content-Type': 'application/json'
     }
