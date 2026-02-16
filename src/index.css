@@ -1,0 +1,31 @@
+/* src/index.css */
+:root {
+  background-color: #f8fafc; /* Fondo general claro */
+  color: #1e293b;            /* Texto general oscuro */
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+}
+
+/* Forzar que todos los inputs sean legibles */
+input, select, textarea {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #cbd5e1 !important;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #94a3b8 !important;
+}
+
+label {
+  color: #334155;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
